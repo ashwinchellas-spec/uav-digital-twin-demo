@@ -1,0 +1,124 @@
+{
+  "sensor_map_hash": "497ab550e8d9656c2a112054e87187d8d2655f68efafd6281ac1ad313591214d",
+  "ece_before": 0.28305510410788343,
+  "ece_after": 0.013478624878527454,
+  "threshold_raw": 0.4,
+  "calibration_method": "isotonic regression (pool-adjacent-violators)",
+  "decision_space": "raw score - calibration is DISPLAY ONLY",
+  "component_labels": [
+    "upper skin",
+    "lower skin",
+    "spar"
+  ],
+  "component_balanced": 0.60060955195176291,
+  "component_chance": 0.33333333333333331,
+  "component_balanced_4class": 0.47095111517488014,
+  "front_rear_balanced": 0.503929502539295,
+  "component_confusion": [
+    [
+      302,
+      26,
+      428
+    ],
+    [
+      24,
+      424,
+      388
+    ],
+    [
+      68,
+      106,
+      1486
+    ]
+  ],
+  "rul_published": false,
+  "rul_statement": "Quantitative RUL is not published because the AI severity estimate is insufficiently predictive (R^2 = 0.0149). The displayed physics results are scenario consequences for an ASSUMED severity band.",
+  "fracture_life_enabled": false,
+  "eps_allow": 0.0035,
+  "baseline_version": "BASELINE-v2.0-1G-FROZEN",
+  "baseline_hash": "3cfc8480eb8cf20888f08c04d7be10527a27420d931024dc4c2eab4e16c88568",
+  "baseline_hash_verified": true,
+  "baseline_ref_load_N": 588.6,
+  "baseline_ref_load_g": 1,
+  "usable_modes": [
+    1,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "model_version": "stage11_model_vl",
+  "n_features": 31,
+  "featnames": [
+    "df1",
+    "df2",
+    "df3",
+    "df4",
+    "df5",
+    "df6",
+    "df7",
+    "dp1",
+    "dp2",
+    "dp3",
+    "dp4",
+    "dp5",
+    "dp6",
+    "dp7",
+    "dp8",
+    "dp9",
+    "dp10",
+    "dp11",
+    "dp12",
+    "dp13",
+    "dp14",
+    "dp15",
+    "dp16",
+    "dp17",
+    "dp18",
+    "dp19",
+    "dp20",
+    "dp21",
+    "dp22",
+    "dp23",
+    "dp24"
+  ],
+  "threshold_global": 0.4,
+  "load_levels": [
+    0.5,
+    1,
+    2,
+    3
+  ],
+  "auc_by_load": [
+    0.61212792127921278,
+    0.60787207872078719,
+    0.64763222632226325,
+    0.6671525215252152
+  ],
+  "envelope_g": [
+    0.5,
+    3
+  ],
+  "source": "SIMULATED",
+  "exported": "2026-08-27 14:25:34",
+  "matlab_artifacts_modified": false,
+  "stage16b_status": "PARTIAL",
+  "limitations": [
+    "Severity head R^2 ~ 0.0149 - no severity is published",
+    "No quantitative RUL. Scenario prognostics only",
+    "GIc, GIIc, paris_C, paris_m remain NaN - not fabricated",
+    "Front vs rear spar ~ chance - reported as merged spar",
+    "Calibrated probability is DISPLAY ONLY; raw score is the decision variable",
+    "Validated measurement envelope 0.5-3.0 g",
+    "df load-invariance is a property of the linear formulation, not a real wing",
+    "Modal information is dual-rate and can become stale",
+    "Spanwise localisation is not achievable and is not claimed",
+    "Temperature is not compensated",
+    "All data is SIMULATED",
+    "Stage 16b Simulink is PARTIAL - block logic verified, model not fully validated"
+  ],
+  "has_posteriors": true,
+  "missing_artifacts": []
+}

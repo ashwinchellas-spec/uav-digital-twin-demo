@@ -1,0 +1,8 @@
+idx,t_start,t_end,label,load_factor,damage_part,damage_mechanism,damage_severity,damage_y0,n_dead_gauges,n_dead_accel
+1,0.0,256.0,1 healthy cruise 1.0g,1.00,none,none,0.0000,NaN,0,0
+2,256.0,448.0,2 healthy MANOEUVRE 2.5g,2.50,none,none,0.0000,NaN,0,0
+3,448.0,704.0,3 damage initiated,2.50,lower_skin,fibre_break,0.3000,1.5000,0,0
+4,704.0,896.0,4 damage grown,2.50,lower_skin,fibre_break,0.5000,1.5000,0,0
+5,896.0,1024.0,5 two gauges failed,2.50,lower_skin,fibre_break,0.5000,1.5000,2,0
+6,1024.0,1152.0,6 twelve gauges failed,2.50,lower_skin,fibre_break,0.5000,1.5000,12,3
+7,1152.0,1408.0,7 sensors restored,2.50,lower_skin,fibre_break,0.5000,1.5000,0,0

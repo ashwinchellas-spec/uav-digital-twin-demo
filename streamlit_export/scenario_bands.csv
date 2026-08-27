@@ -1,0 +1,4 @@
+name,lo,hi,label
+low,0.050,0.200,ASSUMED low severity
+medium,0.200,0.400,ASSUMED medium severity
+high,0.400,0.600,ASSUMED high severity
